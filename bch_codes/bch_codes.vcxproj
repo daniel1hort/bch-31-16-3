@@ -132,6 +132,9 @@
   <ItemGroup>
     <ClInclude Include="bch31_16_3.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="README.MD" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
