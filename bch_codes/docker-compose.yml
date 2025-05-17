@@ -1,0 +1,10 @@
+services:
+    rstudio:
+        image: rocker/rstudio:4.5
+        restart: "unless-stopped"
+        ports:
+            - "8787:8787"
+        environment:
+            PASSWORD: "1234"
+        volumes:
+            - "./workspace:/home/rstudio/workspace"
